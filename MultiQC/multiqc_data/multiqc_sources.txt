@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR23955797_1	/mnt/e4aaaa62-0f82-479f-bda8-75199ee6d316/asfiya/fastqc_results/SRR23955797_1_fastqc.zip
+FastQC	all_sections	SRR23955797_2	/mnt/e4aaaa62-0f82-479f-bda8-75199ee6d316/asfiya/fastqc_results/SRR23955797_2_fastqc.zip
