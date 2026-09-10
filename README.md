@@ -253,42 +253,18 @@ The top 20 Reactome pathways were visualized using a dot plot representing norma
 
 # 20. Repository Structure
 
-```
-Bulk-RNAseq-UC-Ileum/
+Bulkrnaseq-Analysis-Ulcerative-Colitis-vs-Healthy-Ileum-/
 │
 ├── README.md
-│
-├── data/
-│   ├── metadata.csv
-│   ├── ileum_raw_counts.csv
-│   └── pc_gene.txt
-│
-├── scripts/
-│   └── BulkRNAseq_analysis.R
-│
-├── results/
-│   ├── QC/
-│   │   ├── Percentage_of_missing_genes_per_samples.csv
-│   │   └── Histogram_percentage_of_missing_values_per_samples.png
-│   │
-│   ├── Batch_Correction/
-│   │   ├── limma_merged.csv
-│   │   ├── PCA_before_Condition.png
-│   │   ├── PCA_after_Condition.png
-│   │   ├── PCA_before_Batch.png
-│   │   └── PCA_after_Batch.png
-│   │
-│   ├── Differential_Expression/
-│   │   ├── DEGsList.csv
-│   │   ├── contrastPCA.png
-│   │   └── VolcanoPlot.png
-│   │
-│   └── Reactome_GSEA/
-│       ├── pathways.csv
-│       └── pathwaysplot.png
-│
-└── .gitignore
-```
+├── Count_Matrix/
+├── FastQC/
+├── Metadata/
+├── MultiQC/
+├── Output_Differential_Expression_Limma/
+├── Output_Differential_Expression_DESeq2/
+├── Rscript/
+├── SRA_Download/
+└── Salmon/
 
 # 21. Key Tools
 
