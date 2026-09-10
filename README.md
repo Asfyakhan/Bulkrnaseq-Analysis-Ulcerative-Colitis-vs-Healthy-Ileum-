@@ -82,14 +82,7 @@ The R analysis requires packages including:
 •	factoextra
 
 # 2. SRA Data Download
-The sequencing datasets were obtained using SRA accession IDs.
-Example accession IDs:
-SRR23955797
-SRR23955798
-SRR23955799
-Download an SRA dataset using:
-prefetch SRR23955797
-was performed for all samples.
+The sequencing datasets were obtained using SRA accession IDs. Example accession IDs include SRR23955797, SRR23955798, and SRR23955799. An SRA dataset was downloaded using the command prefetch SRR23955797, and this step was repeated for all samples using each sample's corresponding accession ID (see SRA_Download/SRR_id_download.xlsx for the full list of accession IDs used in this project).
 
 # 3. FASTQ Conversion
 The downloaded SRA files were converted into paired-end FASTQ files using fasterq-dump.
