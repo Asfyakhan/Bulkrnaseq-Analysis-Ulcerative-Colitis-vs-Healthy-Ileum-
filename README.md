@@ -89,7 +89,7 @@ SRR23955798
 SRR23955799
 Download an SRA dataset using:
 prefetch SRR23955797
-The mentor workflow uses prefetch to download the SRA files before FASTQ conversion.
+was performed for all samples.
 
 # 3. FASTQ Conversion
 The downloaded SRA files were converted into paired-end FASTQ files using fasterq-dump.
